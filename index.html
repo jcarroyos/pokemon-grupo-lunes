@@ -10,22 +10,22 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1 class="azul">Bulbasaur</h1>
+            <h1 id="nombrePokemon" class="azul">Nombre Pokemon</h1>
             <nav>
                 <ul>
-                    <li><a href="/index.html">bulbasaur</a></li>
-                    <li><a href="/pagina-dos.html">ivysaur</a></li>
-                    <li><a href="/pagina-tres.html">venusaur</a></li>
+                    <li><a href="#" data-pokemon="venusaur">venusaur</a></li>
+                    <li><a href="#" data-pokemon="pikachu">pikachu</a></li>
+                    <li><a href="#" data-pokemon="oddish">oddish</a></li>
                 </ul>
             </nav>
         </div>
         <div class="content">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png">
+            <img id="imagenPokemon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png">
 
-            <p>
-                Bulbasaur is a dual-type Grass/Poison Pokémon. It is known as the Seed Pokémon and is the first Pokémon in the National Pokédex. Bulbasaur evolves into Ivysaur starting at level 16, which then evolves into Venusaur starting at level 32.
-            </p>
         </div>
     </div>
+
+    <!-- Enlazar actions.js -->
+    <script src="./actions.js"></script>
 </body>
 </html>
